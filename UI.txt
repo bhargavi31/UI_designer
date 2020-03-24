@@ -1,0 +1,57 @@
+1.Install pip
+>>pip install pyserial
+2.check the version of pip
+>>pip --version
+3.upgrade pip(if the installed pip is not a new version)
+>>python -m pip install --upgrade pip
+
+pip version 20.0.2(updated version)
+
+In anaconda to create environment
+>>conda create -n myenv
+
+To activate environment
+>>conda activate myenv
+
+To identify the list of all libraries installed use 
+>>conda list
+
+Install Tkinter
+>>conda install -c anaconda tk
+
+Install PyQt
+>>conda install -c anaconda pyqt
+Incase of pip
+>>pip install PyQt5
+
+Import the packages
+>>import sys
+>>from PyQt5 import QtGui
+>>from PyQt5 import QtWidgets
+
+Install Qt Designer
+>>pip install pyqt5-tools
+
+In the site-packages you can find QtDesigner executable file
+
+Create a window and place labels,buttons,widgets in the Qtdesigner.
+
+Once the window is ready in QtDesigner save it in ".ui" file type.
+
+Now, open command prompt or anaconda prompt, activate the envionment and add the path of QtDesigner in the prompt.
+>>cd path
+
+>>pyuic5
+
+>>pyuic5 -x saveduifilename.ui -o filenamerequired.py
+Now the python file is of the UI is created with file name "filenamerequired.py" in the same directory
+
+Now you will be able to open this file with PyCharm.
+
+Add a method which does the image processing and connect it to the buttton.
+
+Create threads for UI as well as the image processing and perform multithreading.
+
+ 
+
+
